@@ -4,14 +4,11 @@
 #include <QWidget>
 #include <QTextStream>
 
-#include "base\Base.h"
-
 namespace Ui {
     class AnotherWindow;
 };
 
-class AnotherWindow : public QWidget, 
-	public I_Database
+class AnotherWindow : public QWidget	
 {
     Q_OBJECT
 
